@@ -1,0 +1,67 @@
+[1m[1;34mCucumber::RbSupport::RbWorld#methods[0m[0m: 
+  Transform            __natural_language=  ask         embed    pending  skip_this_scenario  steps  to_s
+  __cucumber_runtime=  announce             doc_string  inspect  puts     step                table
+[1m[1;34mRSpec::Matchers#methods[0m[0m: 
+  a_block_changing                  an_object_having_attributes  existing                
+  a_block_outputting                an_object_matching           expect                  
+  a_block_raising                   an_object_responding_to      have_attributes         
+  a_block_throwing                  an_object_satisfying         having_attributes       
+  a_block_yielding_control          be                           include                 
+  a_block_yielding_successive_args  be_a                         including               
+  a_block_yielding_with_args        be_a_kind_of                 match                   
+  a_block_yielding_with_no_args     be_an                        match_array             
+  a_collection_containing_exactly   be_an_instance_of            match_regex             
+  a_collection_ending_with          be_between                   matching                
+  a_collection_including            be_falsey                    output                  
+  a_collection_starting_with        be_falsy                     raise_error             
+  a_falsey_value                    be_instance_of               raise_exception         
+  a_falsy_value                     be_kind_of                   raising                 
+  a_hash_including                  be_nil                       respond_to              
+  a_kind_of                         be_truthy                    responding_to           
+  a_nil_value                       be_within                    satisfy                 
+  a_range_covering                  change                       satisfying              
+  a_string_ending_with              changing                     start_with              
+  a_string_including                contain_exactly              starting_with           
+  a_string_matching                 containing_exactly           throw_symbol            
+  a_string_starting_with            cover                        throwing                
+  a_truthy_value                    covering                     yield_control           
+  a_value                           end_with                     yield_successive_args   
+  a_value_between                   ending_with                  yield_with_args         
+  a_value_within                    eq                           yield_with_no_args      
+  aggregate_failures                eq_to                        yielding_control        
+  an_instance_of                    eql                          yielding_successive_args
+  an_object_eq_to                   eql_to                       yielding_with_args      
+  an_object_eql_to                  equal                        yielding_with_no_args   
+  an_object_equal_to                equal_to                   
+  an_object_existing                exist                      
+[1m[1;34mCapybara::DSL#methods[0m[0m: 
+  accept_alert              current_window         has_no_css?              save_and_open_page      
+  accept_confirm            dismiss_confirm        has_no_current_path?     save_and_open_screenshot
+  accept_prompt             dismiss_prompt         has_no_field?            save_page               
+  all                       evaluate_script        has_no_link?             save_screenshot         
+  assert_all_of_selectors   execute_script         has_no_select?           select                  
+  assert_current_path       field_labeled          has_no_selector?         source                  
+  assert_no_current_path    fill_in                has_no_table?            status_code             
+  assert_no_selector        find                   has_no_text?             switch_to_frame         
+  assert_no_text            find_all               has_no_title?            switch_to_window        
+  assert_no_title           find_button            has_no_unchecked_field?  text                    
+  assert_none_of_selectors  find_by_id             has_no_xpath?            title                   
+  assert_selector           find_field             has_select?              uncheck                 
+  assert_text               find_link              has_selector?            unselect                
+  assert_title              first                  has_table?               using_session           
+  attach_file               go_back                has_text?                using_wait_time         
+  body                      go_forward             has_title?               visit                   
+  check                     has_button?            has_unchecked_field?     window_opened_by        
+  choose                    has_checked_field?     has_xpath?               windows                 
+  click_button              has_content?           html                     within                  
+  click_link                has_css?               open_new_window          within_element          
+  click_link_or_button      has_current_path?      page                     within_fieldset         
+  click_on                  has_field?             query                    within_frame            
+  current_host              has_link?              refute_selector          within_table            
+  current_path              has_no_button?         reset_session!           within_window           
+  current_scope             has_no_checked_field?  resolve                
+  current_url               has_no_content?        response_headers       
+[1m[1;34mCapybara::RSpecMatchers#methods[0m[0m: 
+  become_closed       have_content       have_field   have_selector  have_title            match_css     
+  have_button         have_css           have_link    have_table     have_unchecked_field  match_selector
+  have_checked_field  have_current_path  have_select  have_text      have_xpath            match_xpath   
